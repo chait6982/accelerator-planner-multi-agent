@@ -1,0 +1,14 @@
+# Per-run artifacts
+runs/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Secrets (only needed for live-API mode)
+.env
+
+# OS
+.DS_Store
